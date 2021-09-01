@@ -1,0 +1,23 @@
+Package: SimulPowerAnon
+Title: Simultaneous Power Analysis for a Set of Statistical Tests (Anonymous Version for Peer Review)
+Version: 0.8.0
+Authors@R: 
+    person(given = "Anon",
+           family = "Anon",
+           role = c("aut", "cre"),
+           email = "",
+           comment = c(ORCID = "0000-0003-3330-2171"))
+Description: Perform statistical power analysis simultaneously for a set of tests through simulation. Outputs statistical power to detect each effect independently, as well as to detect all of them simultaneously. 
+Imports: MASS (>= 7.3-54),
+         doParallel (>= 1.0.15),
+         foreach (>= 1.5.0),
+         parallel (>= 4.0.0),
+         ggplot2 (>= 3.3.1),
+         tidyr (>= 1.0.3)
+Date/Publication: 2021-07-26
+License: See LICENSE.txt
+URL: https://osf.io/uk2ab/?view_only=2ff99c0053494b3a88c9a6fa78a7e8c8
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
