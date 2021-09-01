@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Anon",
            family = "Anon",
            role = c("aut", "cre"),
-           email = "",
+           email = "anon@anon.com",
            comment = c(ORCID = "0000-0003-3330-2171"))
 Description: Perform statistical power analysis simultaneously for a set of tests through simulation. Outputs statistical power to detect each effect independently, as well as to detect all of them simultaneously. 
 Imports: MASS (>= 7.3-54),
